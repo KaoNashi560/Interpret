@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+    <title>Interpret</title>
+  </head>
+  <body>
+    <div class="header">
+      <span>Interpret</span>
+    </div>
+    <div class="main-container">
+      <img src="copy.svg" id="copyIcon"><span id="copiedSpan" class="copied-wrapper"></span>
+      <div class="drop-down-button-wrapper">
+        <span class="code-type">Binary</span> 
+        <span class="dots">•••</span>
+      </div>
+      <div class="result-container">
+        <span id="resultContentWrapper"></span>
+        <input type="text" class="d-none" id="inputedContentInTextField">
+      </div>
+      <div class="input-container">
+        <div class="text-area-wrapper">
+          <textarea id="inputedValue" placeholder="Type binary or string..."></textarea>
+        </div>
+        <input type="hidden" id="delay">
+        <button id="interpretBtn" class="translate-button">Translate</button>
+      </div>
+    </div>
+    <div class="footer">
+      <span>&copy; All Rights Reserved 2022</span>
+    </div>
+  </body>
+</html>
